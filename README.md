@@ -41,3 +41,38 @@ Check out our [Next.js deployment documentation](https://nextjs.org/docs/deploym
 
 ```
 >>>>>>> master
+
+```
+presently
+├─ .gitignore
+├─ app
+│  ├─ api
+│  │  └─ auth
+│  │     └─ route.ts
+│  ├─ favicon.ico
+│  ├─ globals.css
+│  ├─ layout.tsx
+│  ├─ login
+│  │  └─ page.tsx
+│  ├─ page.tsx
+│  ├─ profile
+│  │  └─ page.tsx
+│  └─ reviews
+│     └─ page.tsx
+├─ components
+│  ├─ general-components
+│  ├─ login-components
+│  ├─ profile-components
+│  └─ review-components
+├─ next.config.js
+├─ package-lock.json
+├─ package.json
+├─ postcss.config.js
+├─ public
+│  ├─ next.svg
+│  └─ vercel.svg
+├─ README.md
+├─ tailwind.config.ts
+└─ tsconfig.json
+
+```
