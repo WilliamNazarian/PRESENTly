@@ -2,3 +2,26 @@
 @tailwind components;
 @tailwind utilities;
 
+
+@layer base {
+
+    .form-style label {
+      @apply block uppercase tracking-wide text-gray-700 text-xs font-bold mb-2;
+    }
+  
+    .form-style input[type="text"],
+    .form-style input[type="number"],
+    .form-style textarea,
+    .form-style select {
+      @apply block w-full bg-blue-100 text-gray-700 border border-gray-200 rounded py-3 px-4 leading-tight focus:outline-none focus:bg-white focus:border-gray-500;
+      @apply h-12; /* Adjust height */
+    }
+  
+    .form-style select {
+      @apply pr-8; /* Padding for custom arrow */
+    }
+  
+    .form-style textarea {
+      @apply h-auto; /* Height auto for textarea */
+    }
+}  

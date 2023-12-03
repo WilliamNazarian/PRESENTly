@@ -39,31 +39,40 @@ The easiest way to deploy your Next.js app is to use the [Vercel Platform](https
 
 Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
 
-```
->>>>>>> master
 
 ```
 presently
+├─ .eslintrc.json
 ├─ .gitignore
 ├─ app
 │  ├─ api
 │  │  └─ auth
-│  │     └─ route.ts
+│  │     └─ [...nextauth]
+│  │        └─ route.ts
 │  ├─ favicon.ico
 │  ├─ globals.css
-│  ├─ layout.tsx
-│  ├─ login
+│  ├─ home
+│  │  ├─ layout.tsx
 │  │  └─ page.tsx
+│  ├─ layout.tsx
 │  ├─ page.tsx
 │  ├─ profile
 │  │  └─ page.tsx
 │  └─ reviews
 │     └─ page.tsx
+├─ assets
+│  ├─ gifts.jpg
+│  └─ presentlyLogo.png
 ├─ components
 │  ├─ general-components
+│  │  └─ navbar.tsx
 │  ├─ login-components
+│  │  ├─ GoogleSigninSignOut.tsx
+│  │  └─ Providers.tsx
 │  ├─ profile-components
 │  └─ review-components
+├─ lib
+│  └─ auth.ts
 ├─ next.config.js
 ├─ package-lock.json
 ├─ package.json
