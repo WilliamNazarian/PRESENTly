@@ -3,7 +3,8 @@ import Image from "next/image";
 import logo from "../../assets/presentlyLogo.png";
 import Link from "next/link";
 import { FaRegUser } from "react-icons/fa";
-import { SignoutButton } from "../../components/login-components/GoogleSigninSignOut";
+import { SignoutButton } from "../login-components/GoogleSigninSignOut";
+import Avatar from "./Avatar";
 
 function Navbar() {
   return (
@@ -14,17 +15,17 @@ function Navbar() {
         </Link>
       </div>
       <div className="flex-none gap-6">
-        <Link href="/reviews" className=" hover:opacity-70">
-          Reviews
+        <Link href="/about" className=" hover:opacity-70">
+          About
         </Link>
         <Link href="/reviews" className=" hover:opacity-70">
-          About
+          Reviews
         </Link>
 
         <div className="dropdown dropdown-end">
           <div tabIndex={0} role="button" className="btn btn-ghost btn-circle avatar">
-            <div className="w-10 h-10 rounded-full bg-green-600 flex items-center justify-center">
-              <span className="text-white font-bold h-full flex items-center justify-center">W</span>
+            <div className="w-10 h-10 rounded-full bg-cyan-500 flex items-center justify-center">
+              <Avatar/>
             </div>
           </div>
           <ul className="mt-3 z-[1] p-4 shadow menu menu-sm dropdown-content bg-base-100 rounded-box">

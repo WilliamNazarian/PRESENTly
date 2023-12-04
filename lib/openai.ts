@@ -6,6 +6,7 @@ interface Messages {
 }
 export interface PromptPayload {
   model: string;
+  response_format: {};
   messages: Messages[];
   temperature: number;
   top_p: number;

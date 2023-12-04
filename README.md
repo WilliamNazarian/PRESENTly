@@ -40,15 +40,20 @@ The easiest way to deploy your Next.js app is to use the [Vercel Platform](https
 Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
 
 
+
 ```
 presently
 ├─ .eslintrc.json
 ├─ .gitignore
 ├─ app
+│  ├─ about
+│  │  └─ page.tsx
 │  ├─ api
-│  │  └─ auth
-│  │     └─ [...nextauth]
-│  │        └─ route.ts
+│  │  ├─ auth
+│  │  │  └─ [...nextauth]
+│  │  │     └─ route.ts
+│  │  └─ sendMessage
+│  │     └─ route.ts
 │  ├─ favicon.ico
 │  ├─ globals.css
 │  ├─ home
@@ -66,13 +71,18 @@ presently
 ├─ components
 │  ├─ general-components
 │  │  └─ navbar.tsx
+│  ├─ home-components
+│  │  ├─ GiftForm.tsx
+│  │  └─ GiftSuggestions.tsx
 │  ├─ login-components
 │  │  ├─ GoogleSigninSignOut.tsx
 │  │  └─ Providers.tsx
 │  ├─ profile-components
 │  └─ review-components
 ├─ lib
-│  └─ auth.ts
+│  ├─ auth.ts
+│  └─ openai.ts
+├─ middleware.ts
 ├─ next.config.js
 ├─ package-lock.json
 ├─ package.json
@@ -82,6 +92,7 @@ presently
 │  └─ vercel.svg
 ├─ README.md
 ├─ tailwind.config.ts
+├─ test.txt
 └─ tsconfig.json
 
 ```

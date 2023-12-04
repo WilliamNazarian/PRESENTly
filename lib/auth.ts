@@ -11,7 +11,6 @@ export const authOptions: NextAuthOptions = {
     session: { strategy: "jwt" },
     callbacks: {
       async signIn({ user, account, profile, email, credentials }) {
-      console.log("hello")
         const isAllowedToSignIn = true;
         if (isAllowedToSignIn) {
           return true;
