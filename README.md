@@ -1,5 +1,5 @@
 # PRESENTly
-This is a website that will help you find what gift you should buy for the type of person you're trying to find a gift for
+Discover the perfect gift for anyone on your list with our intuitive website. Whether you're shopping for a trendsetter, a tech enthusiast, or someone who loves unique finds, our tailored recommendations make gift-giving a breeze. Simplify your search and delight your loved ones with thoughtful, personalized gifts.
 =======
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
