@@ -15,17 +15,10 @@ function Navbar() {
         </Link>
       </div>
       <div className="flex-none gap-6">
-        <Link href="/about" className=" hover:opacity-70">
-          About
-        </Link>
-        <Link href="/reviews" className=" hover:opacity-70">
-          Reviews
-        </Link>
-
         <div className="dropdown dropdown-end">
           <div tabIndex={0} role="button" className="btn btn-ghost btn-circle avatar">
             <div className="w-10 h-10 rounded-full bg-cyan-500 flex items-center justify-center">
-              <Avatar/>
+              <Avatar />
             </div>
           </div>
           <ul className="mt-3 z-[1] p-4 shadow menu menu-sm dropdown-content bg-base-100 rounded-box">

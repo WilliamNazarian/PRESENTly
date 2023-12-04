@@ -62,8 +62,8 @@ function GiftForm() {
   return (
     <>
       <h2 className="text-4xl font-semibold mb-2">Gift Generator</h2>
-      <p className="text-md text-gray-500 mb-5 mx-4 text-center">Information must be about the person you are buying the gift for!</p>
-      <form className="form-style sm:px-14 md:px-24" onSubmit={handleSubmit}>
+      <p className="text-md text-gray-500 mb-5 mx-8 text-center">Information must be about the person you are buying the gift for!</p>
+      <form className="form-style sm:px-14 xl:px-24 " onSubmit={handleSubmit}>
         {/* Line 1: First Name, Age */}
         <div className="flex flex-wrap -mx-3 mb-6">
           <div className="w-full md:w-1/2 px-3 mb-6 md:mb-0">
