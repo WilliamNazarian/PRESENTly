@@ -7,9 +7,9 @@
 https://github.com/WilliamNazarian/PRESENTly/assets/91857937/c4c63a17-d240-4224-9215-62e8700cf128
 
 
-<br/>
 ## ***Technical Information About the Website***
 
+<br/> 
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
