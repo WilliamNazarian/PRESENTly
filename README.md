@@ -15,9 +15,13 @@ This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next
 (In order for the application to work on your device you need to add your OpenAI api key in .env.local, and in order for the google authentication to work we need to add your email in the testers on our google application message us for the request and after that you need to add the Google client ID and Google client secret in the .env.local which needs to be at the same level as the app folder
 
 GOOGLE_CLIENT_ID= ....
+
 GOOGLE_CLIENT_SECRET=....
+
 NEXTAUTH_SECRET=(could be anything)
+
 NEXTAUTH_URL = http://localhost:3000
+
 OPENAI_API_KEY= .....
 
 this is how .env.local should be)
