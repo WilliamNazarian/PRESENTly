@@ -112,3 +112,13 @@ presently
 └─ tsconfig.json
 
 ```
+
+## Contributors 
+
+William Nazarian
+Etienne Paquet
+Hicham Kitaz
+Valeria Dolgaliova
+Jack Spiratos
+
+
