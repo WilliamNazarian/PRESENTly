@@ -12,18 +12,29 @@ https://github.com/WilliamNazarian/PRESENTly/assets/91857937/c4c63a17-d240-4224-
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
+(In order for the application to work on your device you need to add your OpenAI api key in .env.local, and in order for the google authentication to work we need to add your email in the testers on our google application message us for the request and after that you need to add the Google client ID and Google client secret in the .env.local which needs to be at the same level as the app folder
 
-First, run the development server:
+GOOGLE_CLIENT_ID= ....
+GOOGLE_CLIENT_SECRET=....
+NEXTAUTH_SECRET=(could be anything)
+NEXTAUTH_URL = http://localhost:3000
+OPENAI_API_KEY= .....
 
+this is how .env.local should be)
+
+First clone the project from github
+
+The run:
+```bash
+npm i
+```
+to install all the packages
+
+then run 
 ```bash
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
+to start the development server
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
