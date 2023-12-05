@@ -12,19 +12,15 @@ https://github.com/WilliamNazarian/PRESENTly/assets/91857937/c4c63a17-d240-4224-
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
-(In order for the application to work on your device you need to add your OpenAI api key in .env.local, and in order for the google authentication to work we need to add your email in the testers on our google application message us for the request and after that you need to add the Google client ID and Google client secret in the .env.local which needs to be at the same level as the app folder
+In order for the application to work on your device, you need to add your OpenAI API key in `.env.local`. Additionally, for the Google authentication to work, we need to add your email to the testers on our Google application. Please message us for the request. After that, you need to add the Google client ID and Google client secret in the `.env.local`, which needs to be at the same level as the app folder.
 
-GOOGLE_CLIENT_ID= ....
-
-GOOGLE_CLIENT_SECRET=....
-
-NEXTAUTH_SECRET=(could be anything)
-
-NEXTAUTH_URL = http://localhost:3000
-
+GOOGLE_CLIENT_ID= ....  
+GOOGLE_CLIENT_SECRET=....  
+NEXTAUTH_SECRET=(could be anything)  
+NEXTAUTH_URL = http://localhost:3000  
 OPENAI_API_KEY= .....
 
-this is how .env.local should be)
+This is how `.env.local` should be formatted.
 
 First clone the project from github
 
